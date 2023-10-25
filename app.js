@@ -5,3 +5,8 @@ function raise (salary){
     
 
 }
+function anualSalary(salary){
+
+    return salary * 12+raise(salary);
+    
+}
